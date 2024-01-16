@@ -1,3 +1,7 @@
+
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
 
 
@@ -132,7 +136,7 @@ let trigger = ScrollTrigger.create({
   trigger: triggerElement,
   start: "=-100% top",
   end: "=50% top",
-  
+  scrub: 1,
   onEnter: () => {
     
     swiper2.autoplay.start();
@@ -309,7 +313,7 @@ let trigger = ScrollTrigger.create({
   trigger: triggerElement,
   start: "=-110% top",
   end: "bottom top",
-  
+  scrub: 1,
   onEnter: () => {
     
     swiper2.autoplay.start();
