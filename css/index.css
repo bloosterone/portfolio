@@ -38,6 +38,7 @@ main {
   padding: 100px 100px 0 100px;
   width: 100%;
   position: relative;
+  overflow-x: hidden;
 }
 
 section {
