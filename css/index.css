@@ -532,6 +532,18 @@ header {
   font-family: 'Lostar', cursive;
 }
 @media only screen and (max-width: 800px){
+  .third_section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .contenedor_third_section {
+    width: 100%;
+    height: auto;
+ 
+  }
   .contenedor_third_section-one {
     width: 100%;
     height: 100px;
@@ -877,6 +889,79 @@ form .form-row .textarea {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 
+}
+@media only screen and (max-width: 800px) {
+  .four_section {
+
+    height: 110vh;
+  }
+  .contenedor_four_section-title {
+    height: 30%;
+  }
+  .contenedor_four_section-elements-element-one h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+  
+  }
+  .contenedor_four_section-title h2 {
+    font-size: 4em;
+  }
+  .contenedor_four_section-elements {
+    flex-direction: column;
+  }
+  .contenedor_four_section-elements-element {
+    width: 100%;
+    height: 50%;
+    padding: 0px;
+  }
+  .contenedor_four_section-elements-element-one {
+    width: calc(100% /3);
+    min-width: 100px;
+    height: 50%;
+  }
+  .form-title h2 {
+    margin-top: 0px;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1em;
+  }
+  .formcont {
+    width: 60%;
+    height: 100%;
+    margin-top: 0px;
+  }
+  
+.formcont form .form-row {
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+}
+
+form .form-row .textarea {
+  height: 70px;
+}
+.input-data input,
+.textarea textarea {
+  font-size: 15px;
+}
+
+.input-data label {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  pointer-events: none;
+  bottom: 5px;
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.textarea label {
+  width: 100%;
+  bottom: 40px;
+
+}
 }
 
 /* -------------/FOUR/---------------------- */
