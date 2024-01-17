@@ -156,9 +156,9 @@ mm.add("(min-width: 801px)", () => {
         scrollTrigger: {
             trigger: ".four_section",
             start: "=-50% top",
-            end: "=50% top",
+            end: "bottom top",
             scrub: 1,
-
+            markers:true
 
         },
     });
@@ -167,7 +167,7 @@ mm.add("(min-width: 801px)", () => {
         .to(".e1", { y: -300, duration: 60, ease: "power2.out" }, '-=60')
         .to(".e2", { y: -200, duration: 60, ease: "power2.out" }, '-=60')
         .to(".e3", { y: -100, duration: 60, ease: "power2.out" }, '-=60')
-        .to(".container_form-title", { y: -200, duration: 60, ease: "power2.out" }, '-=60')
+        .to(".container_form-title", { y: -100, duration: 60, ease: "power2.out" }, '-=60')
 
 
 })

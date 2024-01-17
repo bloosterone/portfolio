@@ -35,7 +35,7 @@ body {
 
 
 main {
-  padding: 100px 100px 0 100px;
+  padding: 50px 50px 0 50px;
   width: 100%;
   position: relative;
  
@@ -56,9 +56,10 @@ section {
 
 /* ---------------------/HEADER/---------------- */
 header {
-  padding: 100px;
+  padding: 50px;
   width: 100%;
   height: 100vh;
+  min-height: 600px;
   position: relative;
   overflow-x: hidden;
 }
@@ -86,17 +87,19 @@ header {
   bottom: 0;
   line-height: 1;
   text-align: center;
-  padding-bottom: 100px;
+  padding: 0px 100px 0 100px;
+  
 }
 
 .contenedor_titles h1 {
+  
   font-family: 'Lostar', cursive;
-  font-size: 14em;
+  font-size: 11em;
 }
 
 .contenedor_titles h2 {
   font-family: 'Boska', serif;
-  font-size: 5em;
+  font-size: 4em;
   font-style: italic;
 }
 
@@ -217,7 +220,14 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+@media only screen and (max-height:800px) and (min-width: 800px){
+  .scroll-down {
+    width: 150px;
+    
+    bottom: -40px;
+   
+  }
+}
 @media only screen and (max-width: 800px) {
   header {
     padding: 20px;
@@ -242,7 +252,7 @@ header {
   .contenedor_titles {
     width: 100%;
     height: 100%;
-    padding-bottom: 50px;
+    padding: 0px 10px 0 10px;
     position: relative;
   }
   .contenedor_titles h1 {
@@ -279,7 +289,7 @@ header {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding-top: 100px;
+  
 }
 
 .contenedor_first_sectionB {
@@ -303,7 +313,7 @@ header {
 
 .contenedor_first_sectionA h2 {
   font-family: 'Lostar', cursive;
-  font-size: 13em;
+  font-size: 10em;
 }
 
 .contenedor_first_sectionA h2::first-letter {
@@ -311,13 +321,13 @@ header {
 }
 
 .contenedor_first_sectionA .aboutme {
-  font-size: 5em;
+  font-size: 4em;
   font-family: 'Lostar', cursive;
 }
 
 .contenedor_first_sectionA p {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: 'Kanit', serif;
   font-weight: 300;
   font-style: italic;
